@@ -4,11 +4,12 @@
 .features-list {
   display: flex;
   gap: 30px;
-}
-.features-list__item {
+
+  &__item {
   width: calc((100% - 90px) / 4);
 }
-.features-list__icon-wrap {
+
+&__icon-wrap {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -18,13 +19,15 @@
   margin-bottom: 30px;
 }
 
-.features-list__subtitle {
+&__subtitle {
   font-size: 14px;
   margin-bottom: 10px;
   color: var(--title-text-color);
   line-height: 1.14;
   text-transform: uppercase;
 }
-.features-list__text {
+
+&__text {
   line-height: 1.71;
+}
 }
